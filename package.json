@@ -1,0 +1,29 @@
+{
+  "name": "fullstack_practice",
+  "version": "1.0.0",
+  "description": "Fullstack Vue practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rony-Raju/fullstack_practice.git"
+  },
+  "author": "Rony Raju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rony-Raju/fullstack_practice/issues"
+  },
+  "homepage": "https://github.com/Rony-Raju/fullstack_practice#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
